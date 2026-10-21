@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: aliceblue;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(91, 6, 248);
+    height: 70px;
+    color:aliceblue;
+   align-items: center;
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    padding-left:20px;
+}
+nav a:hover{
+    background-color:  rgb(107, 48, 216);
+    padding:23px;
+}
+.home h2{
+    text-align: center;
+    padding: 40px;
+    color:  rgb(91, 6, 248);
+}
+.home p{
+    color:rgb(110, 110, 110);
+    text-align:center;
+}
+.home a{
+    display: inline-block;
+    text-decoration:none;
+    color: white;
+    background-color: rgb(91, 6, 248);
+    padding:10px 20px;
+    border-radius: 10px;
+    margin-left: 45%;
+    margin-top: 15px;
+}
+.home a:hover{
+    background-color:  rgb(107, 48, 216);
+}
+.internship h2{
+    text-align:center;
+    padding:50px;
+    color: rgb(91, 6, 248);
+}
+.inputs{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.inputs input{
+    width:600px;
+    padding:18px;
+    outline:none;
+    border-radius:10px;
+    border:none;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.5);
+}
+.inputs input:hover{
+    border: 1px solid rgb(90, 10, 251);
+}
+.inputs select{
+     width:300px;
+    padding:18px;
+    outline:none;
+    border-radius:10px;
+    border:none;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.5);
+    background-color:white;
+}
+.inputs select:hover{
+    border:1px solid  rgb(90, 10, 251);
+}
+.myApplication h2{
+     text-align:center;
+    padding:50px;
+    color: rgb(91, 6, 248);
+}
+
+.saves h2{
+     text-align:center;
+    padding:50px;
+    color: rgb(91, 6, 248);
+}
+footer{
+    background-color: rgb(91, 6, 248);
+    height: 50px;
+}
+footer p{
+    color:aliceblue;
+    text-align: center;
+    padding:13px;
+}
+.intern {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 20px;
+    margin-top: 30px;;
+}
+
+
+.card {
+    background: white;
+    padding: 22px;
+    border-radius: 8px;
+    border: 1px solid #e3e3e3;
+    box-shadow: 0 3px 10px #00000008;
+}
+
+
+.card h3 {
+    color: rgb(91, 6, 248);
+    margin-bottom: 12px;
+}
+
+
+.card p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+.card button {
+    padding: 10px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 4px 0 0;
+}
+
+
+.apply-btn {
+    background: rgb(91, 6, 248);
+    color: white;
+    width:200px;
+}
+
+
+.save-btn {
+    background: #e8e4ff;
+    color: #493b8f;
+}
+
+
+.card button:hover {
+    opacity: 0.8;
+}
+.myApplication {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+.application-item {
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.application-item:last-child {
+    border-bottom: none;
+}
+
+
+.status {
+    color: #493b8f;
+    font-size: 13px;
+    font-weight: bold;
+}
